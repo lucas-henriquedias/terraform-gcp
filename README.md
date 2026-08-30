@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Atividade: Provisionamento Automatizado na GCP com Terraform
 
 **Aluno:** Lucas Henrique  
@@ -48,6 +47,4 @@ Conforme a documentação oficial da HashiCorp/GCP, a autenticação ocorre atra
 * **Diferença entre Provedores**: O GCP utiliza estruturas como `google_storage_bucket` em vez de `aws_s3_bucket`, com rótulos (`labels`) no lugar de `tags`.
 * **Uso de Data Sources (`data.tf`)**: Permite consultar infraestruturas e configurações pré-existentes na nuvem sem precisar recriá-las.
 * **Uso de `terraform.tfvars`**: Facilita a reutilização de código mantendo os arquivos `.tf` genéricos e isolando as variáveis específicas do ambiente num arquivo separado.
-=======
-# terraform-gcp
->>>>>>> origin/main
+
